@@ -1,0 +1,42 @@
+.notFound {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.user {
+    margin-left: 40px;
+    margin-top: 20px;
+    display: inline-flex;
+    width: 40%;
+}
+
+.image {
+    float: left;
+    display: flex;
+    justify-content: left;
+    background-color: rgb(190, 190, 190);
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px 5px 5px 5px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-position: 50%;
+    background-size: cover;
+    flex-shrink: 0;
+    display: inline;
+}
+
+.image strong {
+    margin-top: 55px;
+    margin-left: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}

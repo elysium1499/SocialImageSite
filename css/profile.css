@@ -1,0 +1,100 @@
+body {
+    background-color: #a5a5a5;
+    color: #262626;
+}
+
+.container {
+    max-width: 93.5rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.profile {
+    padding: 50px 0;
+}
+
+.profile::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.profile-image {
+    float: left;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-position: 50%;
+    background-size: cover;
+    flex-shrink: 0;
+    display: inline;
+}
+
+.profile-user {
+    float: left;
+    display: inline;
+    width: 70%;
+}
+
+.profile-edit {
+    display: inline;
+    position: absolute;
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+    margin-left: 300px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    margin: 10px;
+}
+
+.gallery-item img {
+    width: 300px;
+    height: 250px;
+}
+
+.trash {
+    width: 20px;
+    height: 20px;
+}
+
+.like {
+    width: 20px;
+    height: 20px;
+    color: black;
+}
+
+.like:hover {
+    color: rgb(255, 0, 0);
+}
+
+.num {
+    color: black;
+    float: left;
+    margin-left: 50%;
+    text-align: center;
+    width: 35px;
+}
+
+.num svg {
+    height: 15px;
+    width: 20px;
+    text-align: center;
+    color: red;
+}

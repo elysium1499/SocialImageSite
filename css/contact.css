@@ -1,0 +1,82 @@
+/*CONTATTI*/
+
+.contact {
+    position: absolute;
+    top: 115px;
+    left: 600px;
+}
+
+.blurred-box {
+    position: relative;
+    width: 275px;
+    height: 385px;
+    top: calc(40% - 190px);
+    left: calc(70% - 125px);
+    background: inherit;
+    border-radius: 2px;
+    overflow: hidden;
+    align-content: flex-start;
+}
+
+.user-login-box {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    z-index: 1;
+}
+
+.circular_foto {
+    height: 180px;
+    position: relative;
+    border-radius: 50%;
+    background-size: contain;
+}
+
+.position_foto {
+    bottom: 30px;
+    left: 10%;
+    position: fixed;
+}
+
+.user-name {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(213, 89, 14);
+}
+
+
+/*DESCRITION*/
+
+.overlay {
+    padding: 8rem 6rem;
+    display: inline-block;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.794);
+    box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    margin-left: 140px;
+    margin-top: 140px;
+}
+
+.overlay_inner {
+    max-width: 36rem;
+}
+
+.overlay_title {
+    font-size: 1.9em;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 800;
+    text-shadow: 0 0 2px grey, 2px 2px grey;
+}
+
+.overlay_description {
+    font-family: 'Poppins', sans-serif;
+}

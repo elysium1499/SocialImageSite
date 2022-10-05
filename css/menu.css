@@ -1,0 +1,215 @@
+@import "https://designmodo.github.io/Flat-UI/dist/css/flat-ui.min.css";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
+* {
+    box-sizing: border-box;
+}
+
+.topnav {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.nav {
+    display: inline;
+}
+
+.nav .hidden {
+    display: none;
+}
+
+.nav ol {
+    margin: 15px;
+}
+
+.nav .logo-mn {
+    float: left;
+    width: 140px;
+    margin-left: 0px;
+    margin-top: -10px;
+}
+
+.nav-bar {
+    width: 440px;
+    height: 60px;
+    top: 46px;
+    right: 70px;
+    position: absolute;
+    background: transparent;
+    padding-top: 5px;
+    margin-right: -45px;
+}
+
+.nav-bar ul {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    list-style: none;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 400px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.nav-bar li:nth-child(1) {
+    margin-left: 0;
+}
+
+.btn {
+    padding: unset;
+    position: absolute;
+    top: 50px;
+    right: 70px;
+    height: 27px;
+    width: 35px;
+    cursor: pointer;
+    z-index: 1;
+    transition: opacity 0.25s ease;
+}
+
+.btn span {
+    background: rgb(255, 255, 249);
+    border: none;
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    transition: all 0.45s ease;
+    cursor: pointer;
+}
+
+.btn .middle {
+    top: 11px;
+}
+
+.btn .bottom {
+    top: 22px;
+}
+
+.btn.active .top {
+    transform: translateY(11px) translateX(0) rotate(45deg);
+    background: rgb(255, 255, 255);
+}
+
+.btn.active .middle {
+    opacity: 0;
+    background: rgb(255, 255, 255);
+}
+
+.btn.active .bottom {
+    transform: translateY(-11px) translateX(0) rotate(-45deg);
+    background: rgb(255, 255, 255);
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: 400px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.search-button button {
+    background: transparent;
+    color: white;
+    width: 44px;
+    cursor: pointer;
+    /* position: fixed; */
+    /* right: 5px;
+    top: 14px; */
+    margin-right: 5spx;
+    border: none;
+    /* padding: 1.9em 20px; */
+    /* margin-top: 10px; */
+    /* padding-top: 23px; */
+    float: right;
+}
+
+.search-popup {
+    display: none;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.search-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.search-popup label {
+    color: white;
+}
+
+.search-form {
+    display: block;
+    margin: 7em 4em;
+    position: relative;
+    right: -100%;
+}
+
+.form {
+    width: 100%;
+    position: relative;
+}
+
+.form input {
+    outline: none;
+    border-width: 0 0 1px 0;
+    border-style: none none solid none;
+    border-color: #dad6d5;
+    background-color: transparent;
+    width: 100%;
+    padding: 1em 0;
+    color: #dad6d5;
+}
+
+.form input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+.form input:focus::-moz-placeholder {
+    opacity: 0;
+}
+
+.form input:-ms-input-placeholder {
+    opacity: 0;
+}
+
+.form input:focus:-moz-placeholder {
+    opacity: 0;
+}
+
+.form label {
+    position: absolute;
+    top: 25%;
+    right: 0;
+}
+
+@media screen and (max-width: 690px) {
+    .nav-bar ul {
+        font-family: "Lato", Helvetica, Arial, sans-serif;
+        list-style: none;
+        display: grid;
+        justify-content: end;
+        justify-items: end;
+        margin-right: 20px;
+        text-align: center;
+    }
+    .topnav {
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+        height: 175px;
+    }
+    .nav-bar {
+        height: 130px;
+        right: 160px;
+    }
+}

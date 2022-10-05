@@ -1,0 +1,82 @@
+.user {
+    margin-left: 40px;
+    margin-top: 20px;
+    display: inline-flex;
+    width: 430px;
+}
+
+.image {
+    float: left;
+    justify-content: left;
+    background-color: rgb(190, 190, 190);
+    border-color: rgb(0, 0, 0);
+    border-radius: 35px 5px 5px 5px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-position: 50%;
+    background-size: cover;
+    flex-shrink: 0;
+    display: inline;
+}
+
+.image strong {
+    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.image p {
+    color: black;
+    text-align: center;
+    margin-top: -46px;
+}
+
+.delete {
+    background: #ac0000;
+    border-radius: 5px;
+    height: 40px;
+    align-content: center;
+    font-size: larger;
+    margin-top: 10px;
+    width: 220px;
+}
+
+.ban {
+    background: #f4d313;
+    border-radius: 5px;
+    height: 40px;
+    align-content: center;
+    font-size: larger;
+    margin-top: 10px;
+    width: 220px;
+}
+
+.not-ban {
+    background: #1ec700;
+    border-radius: 5px;
+    height: 40px;
+    align-content: center;
+    font-size: larger;
+    margin-top: 10px;
+    width: 220px;
+}
+
+.make-admin {
+    background: #007ec7;
+    border-radius: 5px;
+    height: 40px;
+    align-content: center;
+    font-size: larger;
+    margin-top: 10px;
+    width: 220px;
+}

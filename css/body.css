@@ -1,0 +1,51 @@
+body {
+    font-family: 'Lucida Sans', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    position: static!important;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    background: linear-gradient(158deg, black, #333333, #ffffff);
+    background-attachment: fixed;
+}
+
+.title {
+    color: rgb(179, 214, 255);
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-left: 70px;
+    font-size: 60px;
+}
+
+.home {
+    width: 6%;
+    position: fixed;
+    display: flex;
+    bottom: 30px;
+    left: 10px;
+}
+
+.home button {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #d46c0b;
+    background: #d46c0b;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    border-width: 2px;
+    border-color: #000000;
+}
+
+.logo-mn {
+    float: left;
+    width: 140px;
+    margin-left: -27px;
+    margin-top: -22px;
+}
+
+.copyright {
+    background-color: black;
+    color: white;
+}
